@@ -25,10 +25,13 @@
 	margin-top: 50vh;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+	transition: all .05s;
 }
 #btn:active {
 	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
 	background-color:#c62d1f;
+	width: 48vmin;
+	height: 48vmin;
 }
 
 body {
