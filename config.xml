@@ -17,4 +17,8 @@
       nicholai.design
   </author>
 
+	<icon src="images/alpha.png" width="180" height="180" />
+
+	<splash src="images/thumb.png" width="180" height="180" />
+
 </widget>
