@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 #btn {
 	box-shadow:inset 0px 1px 0px 0px #f5978e;
 	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
@@ -35,4 +37,21 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 1vh;
+	font-size: 1.7vh;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#heart {
+	color: #f24537;
+}
+
+a {
+	color: #f24537;
 }
