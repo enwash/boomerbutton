@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boomer Button</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <button id="btn" type="button"></button>
+    <script type="text/javascript">
+      document.querySelector('#btn').addEventListener('click',e=>{
+        s = 'sounds/' + (Math.floor(Math.random() * 9)+1).toString() + '.mp3';
+        audio = new Audio(s);
+        audio.play();
+      });
+    </script>
+  </body>
+</html>
